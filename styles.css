@@ -1,0 +1,49 @@
+
+.head {
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+body, html {
+    background-color: rgb(144, 144, 248);
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    background-color: rgba(183, 212, 254, 0.6); ;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boton {
+    border-radius: 10px;
+    background: linear-gradient(to left, #90cca9, #40bb73);
+    color: black;
+    width: 80px;
+    height: 12%;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+.boton a {
+    text-decoration: none;
+    padding: 3px 3px;
+    display: inline-block;
+}
+
+.boton:hover {
+    background: orange;
+}
